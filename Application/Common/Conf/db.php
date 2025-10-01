@@ -1,10 +1,14 @@
 ﻿<?php
 /*
- *  SQLite配置
+ *  MySQL配置
  * */
 return array(
-	'DB_TYPE' => 'sqlite', //数据库类型
-    'DB_NAME' => './shicai.db', //数据库文件路径
+	'DB_TYPE' => 'mysql', //数据库类型
+    'DB_HOST' => 'localhost', //数据库服务器
+    'DB_NAME' => 'shicai', //数据库名
+    'DB_USER' => 'root', //数据库用户名
+    'DB_PWD' => '', //数据库密码
+    'DB_PORT' => '3306', //数据库端口
     'DB_PREFIX' => 'think_', //数据库前缀
 	'DB_CHARSET'=> 'utf8', // 字符集
 	'DB_DEBUG'  => true, // 数据库调试模式 开启后可以记录SQL日志
